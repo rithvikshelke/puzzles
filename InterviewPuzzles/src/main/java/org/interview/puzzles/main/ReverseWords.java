@@ -1,4 +1,4 @@
-package org.kpmg.coding.challenge.problems;
+package org.interview.puzzles.main;
 
 import org.apache.commons.lang.ArrayUtils;
 
