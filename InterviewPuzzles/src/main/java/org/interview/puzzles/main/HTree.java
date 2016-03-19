@@ -1,4 +1,4 @@
-package org.kpmg.coding.challenge.problems;
+package org.interview.puzzles.main;
 public class HTree implements Comparable<HTree> {
 	public final int freq; 
 	public HTree(int freq) {
