@@ -1,4 +1,4 @@
-package org.kpmg.coding.challenge.problems;
+package org.interview.puzzles.main;
 public class HLeaf extends HTree {
 	public final char value;
 
