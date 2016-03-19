@@ -34,8 +34,7 @@ Solution:
 #######################
 1. Value for n=100 and C=10 ---> 5139462350 <Ref: Junit - testWithInitialRequest100And10()>
 2. Value for n=1000000 and C=200 ---> 4876116127 {First 10 digits} <Ref: Junit - testWithInitialRequest1000000And200()>
-3. Algorithmic time complexity - O(n^2)
-4. Value for n=10,000,000 and C=200 ---> 4965134354 {First 10 digits} <Ref: Junit - testWithInitialRequest10000000And200()>
+3. Value for n=10,000,000 and C=200 ---> 4965134354 {First 10 digits} <Ref: Junit - testWithInitialRequest10000000And200()>
 
 #######################
 Design (Pseudo code):
