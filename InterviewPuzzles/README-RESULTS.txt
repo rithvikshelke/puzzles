@@ -86,3 +86,80 @@ N - C  : <time in ms>
 10000000 - 200:205723 millisec
 **************************************************************************************************************************
 **************************************************************************************************************************
+
+Some more:
+-------------->
+
+Problem 1
+
+Write a program that takes any 10-digit phone number and produces a list of words matching first letters of the 
+
+phone number (2 – ABC, 3 – DEF, .. 9 – WZXYZ). Use any free word list file, e.g.
+
+http://www.thefreedictionary.com/word+list
+
+Problem 2
+
+Implement http://en.wikipedia.org/wiki/Huffman_coding tree construction algorithm, which takes any string and 
+
+prints the tree.
+
+Problem 3.a
+
+Write a java program with reverses the words in a String. Use whatever features you feel will solve this problem 
+
+clearly and efficiently. This is the template of the program:
+
+public class ReverseWords { 
+
+public static void main(String[] args) throws Exception { 
+
+}
+
+ 
+
+public String reverseWords(String input) { 
+
+}
+
+}
+
+This is the expected printed output: 
+
+test a is This
+
+Problem 3.b
+
+Write the same program as above, but now the function will work over a single char array, swapping characters 
+
+within the array to achieve the same word reversal. Your function CANNOT use any built in Java methods and 
+
+CANNOT allocate any free store (no use of the new keyword). Your function can allocate as many primitive 
+
+variables as your function needs to provide this functionality. This is the template of this program:
+
+public class ReverseWords { 
+
+public static void main(String[] args) throws Exception { 
+
+ReverseWords rw = new ReverseWords(); 
+
+System.out.println(rw.reverseWords(“This is a test”)); 
+
+// Your code here 
+
+ReverseWords rw = new ReverseWords(); 
+
+char[] input = {‘T’, ‘h’, ‘i’, ‘s’, ‘ ‘, ‘i’, ‘s’, ‘ ‘, ‘a’, ‘ ‘, ‘t’, ‘e’, ‘s’, ‘t’}; 
+
+rw.reverseWords(input);
+
+System.out.println(new String(input)); 
+
+} 
+
+public void reverseWords(char[] input) { 
+	// Your code here
+}
+
+}
